@@ -5,6 +5,8 @@ import "./Testimonial.css";
 import { Avatar } from "@material-ui/core";
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import Ciel from "../images/ciel.png";
+import Danil from "../images/Danil.png";
+import Alex from "../images/Alex.png";
 
 const PreviousBtn = (props) => {
   console.log(props);
@@ -38,14 +40,13 @@ const Testimonial = () => {
           position="KodeGo Instructor"
         /> */}
         <Card
-          img={Ciel}
+          img={Danil}
           text='"Working with Glenn on our  Capstone project was a great experience. He understands instructions very well, writes good code and always asks relevant questions. He would be a great addition to your team"'
           name="Danil Cristales"
           position="KodeGo Teamate"
         />
         <Card
-          img="/ReactPortfolio/
-          https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/285805368_3104744556457593_3057326052926961798_n.jpg?stp=dst-jpg_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeF2kULP1BXqY_hKUjj4Qgvu1ZjfRbj1NoTVmN9FuPU2hOsUehuSqjhHxMNgaicaxikEgqzO848Ub7tK6FrPv6Ok&_nc_ohc=Qj4XlQtGZzsAX_puffB&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfDOBstCE8I8OJtgkcXmDsLZkNcZNFnDSe2rm2_BbjmVfA&oe=639CABDA"
+          img={Alex}
           text='"Having glenn as a teammate on our capstone project is great. He is creative and a hard worker that gives new ideas for the project."'
           name="Alex Pacaldo"
           position="KodeGo Teamate"
