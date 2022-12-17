@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.86d06974.css",
+    "main.js": "/react-gh-pages/static/js/main.afbd3814.js",
+    "static/media/2.svg": "/react-gh-pages/static/media/2.15e47c3c1e6c8d6971a6.svg",
+    "static/media/mp1.svg": "/react-gh-pages/static/media/mp1.b1fc27c14ef1db307061.svg",
+    "static/media/ucookin.svg": "/react-gh-pages/static/media/ucookin.1e2c49e9b98fa882eaf7.svg",
+    "static/media/12.svg": "/react-gh-pages/static/media/12.132ad63fef597c87fbed.svg",
+    "static/media/zaballero00004-4-removebg.png": "/react-gh-pages/static/media/zaballero00004-4-removebg.f1ffa53a17e91cd3742e.png",
+    "static/media/vr.svg": "/react-gh-pages/static/media/vr.76e9d3c412f31498cf62.svg",
+    "static/media/budega.svg": "/react-gh-pages/static/media/budega.4596e726e62eb733633c.svg",
+    "static/media/Untitled design (21).svg": "/react-gh-pages/static/media/Untitled design (21).f5ec3508194162cc0c6c.svg",
+    "static/media/mp2.svg": "/react-gh-pages/static/media/mp2.20203610f125be666eef.svg",
+    "static/media/kodego.svg": "/react-gh-pages/static/media/kodego.baee1a3f1b953eef8acf26b25436b573.svg",
+    "static/media/ciel.png": "/react-gh-pages/static/media/ciel.152776fd5ded201dc1c9.png",
+    "static/media/portfolioLogo (4).svg": "/react-gh-pages/static/media/portfolioLogo (4).e4409435528ca5427fc776abca2e2ff2.svg",
+    "static/media/slick.svg": "/react-gh-pages/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-gh-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-gh-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-gh-pages/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-gh-pages/index.html",
+    "main.86d06974.css.map": "/react-gh-pages/static/css/main.86d06974.css.map",
+    "main.afbd3814.js.map": "/react-gh-pages/static/js/main.afbd3814.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86d06974.css",
+    "static/js/main.afbd3814.js"
+  ]
+}
