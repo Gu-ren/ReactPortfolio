@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.6e7663c8.css",
-    "main.js": "/ReactPortfolio/static/js/main.401bee6e.js",
+    "main.js": "/ReactPortfolio/static/js/main.97f295ca.js",
     "static/media/2.svg": "/ReactPortfolio/static/media/2.15e47c3c1e6c8d6971a6.svg",
     "static/media/mp1.svg": "/ReactPortfolio/static/media/mp1.b1fc27c14ef1db307061.svg",
     "static/media/ucookin.svg": "/ReactPortfolio/static/media/ucookin.1e2c49e9b98fa882eaf7.svg",
@@ -12,6 +12,8 @@
     "static/media/Untitled design (21).svg": "/ReactPortfolio/static/media/Untitled design (21).f5ec3508194162cc0c6c.svg",
     "static/media/mp2.svg": "/ReactPortfolio/static/media/mp2.20203610f125be666eef.svg",
     "static/media/kodego.svg": "/ReactPortfolio/static/media/kodego.baee1a3f1b953eef8acf26b25436b573.svg",
+    "static/media/Danil.png": "/ReactPortfolio/static/media/Danil.a956852fe76e3c17b929.png",
+    "static/media/Alex.png": "/ReactPortfolio/static/media/Alex.cab866a1ec75aa85d204.png",
     "static/media/ciel.png": "/ReactPortfolio/static/media/ciel.152776fd5ded201dc1c9.png",
     "static/media/portfolioLogo (4).svg": "/ReactPortfolio/static/media/portfolioLogo (4).e4409435528ca5427fc776abca2e2ff2.svg",
     "static/media/slick.svg": "/ReactPortfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -20,10 +22,10 @@
     "static/media/slick.woff": "/ReactPortfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ReactPortfolio/index.html",
     "main.6e7663c8.css.map": "/ReactPortfolio/static/css/main.6e7663c8.css.map",
-    "main.401bee6e.js.map": "/ReactPortfolio/static/js/main.401bee6e.js.map"
+    "main.97f295ca.js.map": "/ReactPortfolio/static/js/main.97f295ca.js.map"
   },
   "entrypoints": [
     "static/css/main.6e7663c8.css",
-    "static/js/main.401bee6e.js"
+    "static/js/main.97f295ca.js"
   ]
 }
