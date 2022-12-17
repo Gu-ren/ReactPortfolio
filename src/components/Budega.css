@@ -1,0 +1,121 @@
+.budega {
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  top: 160px;
+}
+.budleft {
+  margin-right: 75%;
+  margin-left: 2%;
+}
+.budleft h1 {
+  font-size: 2rem;
+}
+.budleft h2 {
+  font-size: 0.8rem;
+  background-color: black;
+  width: 6rem;
+  color: white;
+  padding: 0.3rem;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 3px;
+}
+.budleft p {
+  font-size: 0.8rem;
+}
+.cta {
+  border: none;
+  background: none;
+  padding-top: 2rem;
+  left: 2rem;
+}
+.cta a {
+  text-decoration: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.btn-git {
+  background-color: black;
+  color: white;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  top: 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+.btn-git:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 100em) {
+  .budleft h1 {
+    font-size: 2.5rem;
+  }
+  .budleft h2 {
+    font-size: 1rem;
+
+    width: 7rem;
+  }
+  .budleft p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 130em) {
+  .budleft h1 {
+    font-size: 3.5rem;
+  }
+  .budleft h2 {
+    font-size: 1rem;
+
+    width: 7rem;
+  }
+  .budleft p {
+    font-size: 1.3rem;
+  }
+}

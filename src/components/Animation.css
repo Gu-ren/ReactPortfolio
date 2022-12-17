@@ -1,0 +1,90 @@
+.section {
+  margin-top: -12rem;
+  margin-bottom: -20rem;
+  margin-left: -5rem;
+}
+.section .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+
+  white-space: nowrap;
+  font-size: 40px;
+  transform: rotate(-30deg);
+}
+i {
+  color: grey;
+  transition: 1s;
+  padding: 0 5px;
+  user-select: none;
+  cursor: pointer;
+}
+i:hover {
+  transition: 0s;
+  color: #a2fffa;
+}
+.section .row div {
+  animation: animate1 80s linear infinite;
+  animation-delay: -80s;
+}
+.section .row div:nth-child(2) {
+  animation: animate2 80s linear infinite;
+  animation-delay: -40s;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+.section .row:nth-child(even) div {
+  animation: animate3 80s linear infinite;
+  animation-delay: -80s;
+}
+.section .row:nth-child(even) div:nth-child(2) {
+  animation: animate4 80s linear infinite;
+  animation-delay: -40s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes animate4 {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .section .row {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 130em) {
+  .section .row {
+    font-size: 60px;
+  }
+  .section {
+    margin-top: -18rem;
+    margin-bottom: -25rem;
+    margin-left: -5rem;
+  }
+}

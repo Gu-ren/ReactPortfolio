@@ -1,0 +1,358 @@
+.Prog {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.Prog span {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.Prog p {
+  font-size: 3rem;
+  color: red;
+}
+.lang {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 1rem;
+  margin: 0 2rem;
+  gap: 1rem 4rem;
+  justify-content: center;
+  font-size: 3rem;
+}
+.html .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.html {
+  cursor: pointer;
+  color: orange;
+  position: relative;
+  display: inline-block;
+}
+.html:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.css {
+  cursor: pointer;
+  color: blue;
+  position: relative;
+  display: inline-block;
+}
+.css .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.css:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.js {
+  cursor: pointer;
+  color: #ffd600;
+  position: relative;
+  display: inline-block;
+}
+.js .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.js:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.react {
+  cursor: pointer;
+  color: #80deea;
+  position: relative;
+  display: inline-block;
+}
+.react .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.react:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.bootstrap {
+  cursor: pointer;
+  color: #673ab7;
+  position: relative;
+  display: inline-block;
+}
+.bootstrap .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.bootstrap:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.sass {
+  cursor: pointer;
+  color: #f06292;
+  position: relative;
+  display: inline-block;
+}
+.sass .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.sass:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.node {
+  cursor: pointer;
+  color: #388e3c;
+  position: relative;
+  display: inline-block;
+}
+.node .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.node:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.php {
+  cursor: pointer;
+  color: #00bcd4;
+  position: relative;
+  display: inline-block;
+}
+.php .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.php:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.laravel {
+  cursor: pointer;
+  color: red;
+  position: relative;
+  display: inline-block;
+}
+.laravel .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.laravel:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.sql {
+  cursor: pointer;
+  color: rgb(3, 10, 118);
+  position: relative;
+  display: inline-block;
+}
+.sql .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.sql:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.vscode {
+  cursor: pointer;
+  color: #1b5f9a;
+  position: relative;
+  display: inline-block;
+}
+.vscode .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.vscode:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.git {
+  cursor: pointer;
+  color: black;
+  position: relative;
+  display: inline-block;
+}
+.git .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 200;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.git:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,70 @@
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.testimonial .slick-prev::before,
+.testimonial .slick-next::before {
+  display: none;
+}
+.testimonial .slick-arrow.slick-next {
+  right: -70px;
+}
+.testimonial .slick-arrow.slick-prev {
+  left: -70px;
+}
+.testimonial .slick-dots li button:before {
+  font-size: 8px;
+}
+.testimonial .slick-dots li {
+  top: 8px;
+}
+.test p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: black;
+}
+.test .pkdt {
+  font-size: 0.8rem;
+}
+.test .pname {
+  font-size: 1rem;
+}
+@media screen and (min-width: 100em) {
+  .test p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: black;
+  }
+  .test .pkdt {
+    font-size: 0.8rem;
+  }
+  .test .pname {
+    font-size: 1.3rem;
+  }
+  .monial {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 130em) {
+  .test p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: black;
+  }
+  .test .pkdt {
+    font-size: 1rem;
+  }
+  .test .pname {
+    font-size: 1.5rem;
+  }
+  .monial {
+    font-size: 1.5rem;
+  }
+}

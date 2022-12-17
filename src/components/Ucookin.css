@@ -1,0 +1,146 @@
+.ucookin {
+  height: 70vh;
+  text-align: right;
+}
+.ucookleft {
+  margin-left: 49%;
+  margin-right: 2%;
+  position: relative;
+  top: 20px;
+}
+.ucookleft h1 {
+  font-size: 2rem;
+  line-height: 30px;
+}
+.ucookleft h3 {
+  font-size: 0.8rem;
+  background-color: black;
+  width: 6rem;
+  color: white;
+  padding: 0.3rem;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 3px;
+  left: 23rem;
+  position: relative;
+  bottom: 1rem;
+}
+.ucookleft p {
+  font-size: 0.8rem;
+}
+.ctacook {
+  border: none;
+  background: none;
+  padding-top: 2rem;
+  right: -1rem;
+}
+.ctacook a {
+  text-decoration: none;
+}
+
+.ctacook span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.ctacook .arrow {
+  transform: translate(-60px);
+
+  transition: all 0.3s ease;
+}
+
+.ctacook:hover .arrow {
+  transform: translate(-80px);
+}
+
+.ctacook:active .arrow {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+
+  background-color: #000000;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.ctacook:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+.btn-git-cook {
+  background-color: black;
+  color: white;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  top: 2rem;
+  right: 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+.btn-git-cook:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+@media screen and (min-width: 100em) {
+  .ucookleft h3 {
+    font-size: 1rem;
+
+    width: 7rem;
+
+    left: 29rem;
+  }
+
+  .ucookleft h1 {
+    font-size: 2.5rem;
+    line-height: 20px;
+  }
+  .ucookleft h2 {
+    font-size: 1rem;
+
+    width: 7rem;
+  }
+  .ucookleft p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 130em) {
+  .ucookleft h3 {
+    font-size: 1rem;
+
+    width: 7rem;
+
+    left: 29rem;
+  }
+
+  .ucookleft h1 {
+    font-size: 3.5rem;
+    line-height: 20px;
+  }
+  .ucookleft h2 {
+    font-size: 1rem;
+
+    width: 7rem;
+  }
+  .ucookleft p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+}
